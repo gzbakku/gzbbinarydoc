@@ -9,7 +9,7 @@ description = "this is a json like object structure to organize data.supported d
 homepage = "https://github.com/gzbakku/gzbbinarydoc"
 repository = "https://github.com/gzbakku/gzbbinarydoc"
 readme = "README.md"
-keywords = ["binary", "json","document","key","value","store"]
+keywords = ["binary", "json","document"]
 categories = ["parsing", "data-structures"]
 license = "GPL-3.0"
 
