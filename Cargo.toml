@@ -1,0 +1,17 @@
+[package]
+name = "gzbbinarydoc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+description = "this is a json like object structure to organize data.supported data types are binary(Vec<u8>),string,i64,f64,null,Vec<self> and hashmap<string,self>. the document can be parsed from and to a vec<u8>."
+homepage = "https://github.com/gzbakku/rust_store"
+repository = "https://github.com/gzbakku/rust_store"
+readme = "README.md"
+keywords = ["ssl", "openssl","certificate","rsa","generate"]
+categories = ["encoding", "data-structures"]
+license = "GPL-3.0"
+
+[dependencies]
+byteorder = "1.4.3"
