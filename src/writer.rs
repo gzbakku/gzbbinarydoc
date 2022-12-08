@@ -108,7 +108,7 @@ pub fn process_bool(object:&DocValue)->Vec<u8>{
     if object.as_bool().unwrap() {data = vec![1];} else {data = vec![0];};
     data_line(6, data)
 }
-pub fn process_null(object:&DocValue)->Vec<u8>{data_line(7, vec![0])}
+pub fn process_null(_object:&DocValue)->Vec<u8>{data_line(7, vec![0])}
 
 //data builders
 fn data_line(data_type:u8,mut data:Vec<u8>)->Vec<u8>{
